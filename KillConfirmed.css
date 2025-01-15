@@ -334,7 +334,6 @@ a,
   position: absolute;
   cursor: pointer;
   font-size: var(--size);
-  user-select: none;
   fill: var(--color);
   right: 50px;
   top: 50px;
