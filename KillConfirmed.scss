@@ -53,6 +53,22 @@ body {
   @media screen and (max-width: 768px) {
     background-attachment: scroll;
     background-position: top center;
+
+    .container .page.start-page {
+      background-image: url("image/pageMobile.png");
+    }
+
+    .container .page.rules-page {
+      background-image: url("image/rulepageMobile.png");
+    }
+
+    .container .page.victory-page {
+      background-image: url("image/victoryMobile.png");
+    }
+
+    .container .page.defeat-page {
+      background-image: url("image/defeatMobile.png");
+    }
   }
 
   @media screen and (max-width: 480px) {
@@ -185,7 +201,7 @@ button {
   #nextScreenButton {
     @include button-style(#2add0a, #2bc409, #1e9c00);
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
     left: 50%;
     transform: translateX(-50%);
   }

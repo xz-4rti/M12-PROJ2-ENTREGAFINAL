@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   justify-content: center;
+  align-items: center;
 }
 
 .container .page {
@@ -43,6 +44,23 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  
+  .container .page.start-page {
+    background-image: url("image/pageMobile.png");
+  }
+  
+  .container .page.rules-page {
+    background-image: url("image/rulepageMobile.png");
+  }
+  
+  .container .page.victory-page {
+    background-image: url("image/victoryMobile.png");
+  }
+  
+  .container .page.defeat-page {
+    background-image: url("image/defeatMobile.png");
+  }
+
   .container .page {
     margin-top: 10vh;
     width: 95%;
@@ -162,7 +180,7 @@ button:active {
 .start-page #nextScreenButton {
   background-color: #2add0a;
   position: absolute;
-  bottom: 100px;
+  bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
   padding: 15px 30px;
